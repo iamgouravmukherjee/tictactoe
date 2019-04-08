@@ -74,6 +74,7 @@ to   { opacity: 1; }
 .boxWrap {
   padding: 25px 16px !important; 
   box-sizing: border-box;
+  
 }
 
 .heading {
@@ -92,4 +93,11 @@ to   { opacity: 1; }
   font-weight: 400;
   font-family: 'Shojumaru', cursive;
   text-transform: capitalize;
+}
+
+@media (min-width: 993px) {
+   .boxWrap {
+      max-width: 50% !important;
+      margin: auto !important;
+   }
 }

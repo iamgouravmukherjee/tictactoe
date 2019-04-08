@@ -172,7 +172,7 @@ class App extends Component {
         <div className="App">
           <div className="container">
             <div className="mt-5 heading">Tic Tac Toe </div>
-            <div className="row boxWrap mt-4">
+            <div className="row boxWrap mt-4 wrapper">
               {boxes}
             </div>
             <div className="mt-3 turn">
